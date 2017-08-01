@@ -1,4 +1,172 @@
+/* set font and margins for header*/
 h1{
     margin-top: 80px;
     margin-bottom: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+/* center menu button on mobile and hamburger to white*/
+.myNavToggle {
+    float: none;
+    margin: auto;
+    color: #fff;
+}
+
+/* set hamburger background to light blue on focus and hover*/
+.navbar-toggle:focus, .navbar-toggle:hover {
+    background-color: #b1c7e7 !important;
+}
+
+/* set width to same as images to remove vertical bars on each side of carousel*/
+#myCarousel {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* and also remove background image to remove gradient*/
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+}
+
+/* set background color in navbar to dark blue*/
+.navbar {
+  background-color:	#2E5894;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/* set text in navbar to white*/
+li a {
+  color: #fff;
+}
+
+/* settings for home page Devils Tower image */
+figure {
+  max-width: 640px;
+  border: thin #5d5f60 solid;
+  margin: 1.5em 0;
+  padding: .75em;
+}
+
+.generatorBox {
+  border: thin solid #000;
+  background-color: #E8E8E8;
+  padding: 0 1em;
+    
+}
+
+/* settings for Site Generator answer */
+#siteDisplay {
+  margin-top: 10px;
+  margin-bottom: 15px; 
+}
+
+/* settings for photo credits */
+.photo-credit {
+  max-width: 750px;
+  font-size: 12px;
+  margin-top: 25px;
+  padding: 0 5px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+     
+.map {
+  margin: 50px 300px;
+  
+}
+
+#foot {
+  background-color: #2E5894;
+  color: #fff;
+}
+/* Optional: Makes the sample page fill the window. */
+
+.social ul {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.social ul li {
+  list-style: none;
+  margin: 10px;
+  background: #000;
+  font-size: 24px;
+  transition: .5s;
+}
+.social ul li a {
+  padding: 16px 0;
+  width: 60px;
+  
+  color: #fff;
+  display: block;
+  
+  
+}
+.social ul li a .fa {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+}
+
+.social ul li:nth-child(1) {
+  background: #3b5998;
+}
+.social ul li:nth-child(2) {
+  background: #00aced;
+}
+.social ul li:nth-child(3) {
+  background: #dd4b39;
+}
+.social ul li:nth-child(4) {
+  background: #007bb6;
+}
+.social ul li:nth-child(5) {
+  background: #bc2a8d;
+}
+.social ul li:nth-child(6) {
+  background: #FFFC00;
+}
+.social ul li:hover {
+  transform: rotateY(180deg);
+  box-shadow: 0 10px 10px rgba(0,0,0,.5);
+}
+
+/* Extra Small Devices: set heading sizes*/
+@media only screen and (max-width: 480px) {
+    h1 {font-size: 28px;  
+    }
+    h3 {font-size: 20px;
+    }
+    h5 {font-size: 12px;
+    }
+}
+
+/* Small Devices: set heading sizes*/
+@media only screen and (min-width: 481px) and (max-width: 787px){
+    h1 {font-size: 30px;  
+    }
+    h3 {font-size: 22px;
+    }
+}
+
+/* Medium Devices: set heading size*/
+@media only screen and (min-width: 788px) and (max-width: 991px){
+    h1 {font-size: 32px;  
+    }
+}    
+
+/* all one column: margin fixes*/
+@media only screen and (max-width: 991px){
+    figure {margin: 0;
+    }
+    .generatorBox {margin: 10px 0;
+    }
+    .generatorBox h3 {margin-top: 10px;
+    }
 }
