@@ -1,34 +1,5 @@
 /*global $*/
-/*
-      function initMap() {
-        var location = {lat: 40.689, lng: -74.0440};
-        var location = {lat: 40.714, lng: -74.005};
-        var location = {lat: 40.734, lng: -74.002};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16, center: location
-        });
-        var marker = new google.maps.Marker({
-          position: location, map: map
-        });
-      }
-  /*    
-      function initMap() {
-        var location = {lat: 40.714, lng: -74.005};
-        var mapp = new google.maps.Map(document.getElementById('mapp'), {
-          zoom: 16, center: location
-        });
-        var marker = new google.maps.Marker({
-          position: location, map: map
-        });
-      }
-/*      
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}  */    
+
       //code for site generator//
 $(document).ready(function(){
   $('#findSite').click(function() {
