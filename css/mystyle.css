@@ -54,6 +54,10 @@ figcaption {
   padding: 2px;
 }
 
+.figure-no-caption {
+  padding: 0;
+}
+
 .generatorBox {
   border: thin solid #000;
   background-color: #E8E8E8;
@@ -83,9 +87,8 @@ figcaption {
 /* google map */
 #map {
   margin-top: 15px;
-  margin-bottom: 15px;
-   width: 100%;
-   height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
 /* footer */
@@ -104,7 +107,6 @@ blockquote {
   font-size: 15.5px;
 }
 
-/* Optional: Makes the sample page fill the window. */
 
 .social ul {
   display: flex;
@@ -114,6 +116,7 @@ blockquote {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .social ul li {
   list-style: none;
   margin: 10px;
@@ -124,7 +127,6 @@ blockquote {
 .social ul li a {
   padding: 16px 0;
   width: 60px;
-  
   color: #fff;
   display: block;
   
